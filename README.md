@@ -2,6 +2,8 @@
 
 This template is up to Next.js 13.4.12. Please run `pnpm update` after creating your project.
 
+[![CI-check](https://github.com/devmahmud/next-13-starter/actions/workflows/CI.yml/badge.svg)](https://github.com/devmahmud/next-13-starter/actions/workflows/CI.yml)
+
 ## Features
 
 - Next.js 13 App Directory
