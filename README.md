@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter Template
 
-## Getting Started
+This template is up to Next.js 13.4.12. Please run `pnpm update` after creating your project.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next.js 13 App Directory
+- Tailwind CSS and [Shadcn/ui](https://ui.shadcn.com)
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Github Actions for CI
+- VSCode recommended settings & extensions
+- ESLint
+- Playwright
+- Prettier with sorting imports
+- Tailwind CSS class sorting, merging and linting.
+- Commit & Commit message hooks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This template uses `pnpm` as the package manager. If you want to use other package managers, you can delete `pnpm-lock.yaml` and run `npm install` or `yarn install`.
 
-## Learn More
+- `dev`: Start the development server
+- `build`: Build for production
+- `start`: Start production server
+- `preview`: build and start production server
+- `lint`: Lint code
+- `format`: Format code
+- `format:check`: Check code formatting
+- `typecheck`: Check types
+- `ci-check`: Run all checks
+- `cz` Conventional changelog
+- `release` standard version release
+- `test:e2e` End to end testing using Playwright
 
-To learn more about Next.js, take a look at the following resources:
+## Inspiration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Inspired by [next-template](https://github.com/shadcn/next-template) by [Shadcn](https://github.com/shadcn)
